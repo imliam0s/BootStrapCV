@@ -2,6 +2,12 @@ body {
     background-color: #f8f9fa;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 .navbar {
     background-color: #ffffff; /* Navbar background color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Navbar box shadow */
@@ -44,3 +50,31 @@ body {
 .contact-button {
     margin-top: 40px;
 }
+
+#pic:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.education-item {
+    display: inline-block;
+    width: 45%; /* Adjust the width as needed */
+    margin-right: 20px; /* Add some margin between the paragraphs */
+}
+
+.year-grades {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.year-grades {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
