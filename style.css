@@ -58,8 +58,8 @@ html {
 
 .education-item {
     display: inline-block;
-    width: 45%; /* Adjust the width as needed */
-    margin-right: 20px; /* Add some margin between the paragraphs */
+    width: 35%; 
+    margin-right: 20px; 
 }
 
 .year-grades {
@@ -71,6 +71,18 @@ html {
 .year-grades {
     margin-top: 20px;
 }
+
+body {
+    font-family: 'Your Custom Font', sans-serif;
+}
+
+#heroSec {
+    background: linear-gradient(45deg, #8a8a8a, #f8f9fa);
+    color: #fff;
+}
+
+
+
 
 
 
