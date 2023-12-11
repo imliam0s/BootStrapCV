@@ -1,4 +1,4 @@
-// script.js
+
 
 document.addEventListener('DOMContentLoaded', function () {
     var contactButton = document.getElementById('contactButton');
