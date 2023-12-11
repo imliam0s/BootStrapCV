@@ -1,0 +1,99 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Bootstrap Features</title>
+	
+	<!--Bootstrap version-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--Style sheet link-->
+	<link rel="stylesheet" href="style.css">
+
+    <a href="Index.html">Go to Features</a>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Liam Osinuga</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item1"><a class="nav-link" href="Index.html"> Online CV</a></li>
+                
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary" id="contactButton">Contact Me</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<div id="BootstrapSec" class="container mt-5">
+    <h2>Bootstrap Features</h2>
+    <br>
+    <div class="bootsfeature-item">
+        <p>
+            In my Online CV, I used several Bootstrap features. In this Page, I'll break down the Bootstrap components and classes I used throughout the CA.
+
+        </p>
+
+        <p>
+            In my Navbar, I used .navbar as my main navigation container, navbar-expand-lg which is I used for responsive navigation for larger screens, navbar-light bg-light which is a light background for the navbar, navbar-toggler which is the toggler button for collapsing and expanding the navigation, navbar-brand which is a logo inside the navbar. navbar-nav: Container for the navigation links, nav-item which is a Individual navigation item. nav-link which I used for the style of navigation links. The fixed-top class, keeps the navbar at the top of the page regardless of scrolling, ensuring a consistent and user-friendly experience.
+For my layout, I used containers which helped structure my code appropriately to look user-friendly.  I used container mt-5 which adds a top margin to the container. I used buttons btn for basic button styling and btn-primary for the button colour. <br><br>For my Images, I used img-fluid for responsive images that scale with its parent container and rounded-circle which rounds the image into a circle. For my heading, I used heading tags with bootstrap styling for h1, h2, h3.I used lead for a larger font size for introducing text. I used Bootstrap's grid system when placing elements within containers, creating a responsive layout.
+
+        </p>
+
+        <p>
+            I used Collapse, data-bs-toggle=collapse which activates the collapse functionality, data-bs-target specifies the target element to be collapsed, and a collapse class that hid the content initially. To display my contact information I used modal. I used modal-dialog which wraps around the actual content. The modal-header is where I put a title to let users know what the popup is about. The main body of the popup, where I present information or features, is called the modal-body. 
+I added Bootstrap's list group feature which helped me organise information cleanly and stylishly. The list-group class helped me create well-structured lists, and list-group-item ensures each item looks neat. When it comes to spacing, the mt-5 class came in handy, adding a comfortable margin at the top to improve the visual appeal. Lastly, I used the script to link to Bootstrap's JavaScript for enabling Bootstrap features.
+
+        </p>
+        
+    </div>
+
+
+
+<!-- Contact Button -->
+<div id="contactSec" class="container mt-5 text-center">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+        Contact Me
+    </button>
+</div>
+
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Contact Information</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul class="list-group">
+                    <li class="list-group-item">Number: 0852358935</li>
+                    <li class="list-group-item">LinkedIn: <a href="https://www.linkedin.com/in/liamosinuga" target="_blank">www.linkedin.com/in/liamosinuga</a></li>
+                    <li class="list-group-item">Email: osinugaliam1@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
